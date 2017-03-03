@@ -35,7 +35,9 @@
             android:text="@string/entrar"
             android:textColor="@color/branca"
             android:textSize="@dimen/tamanho1"
-            android:layout_alignParentBottom="true"/>
+            android:layout_alignParentBottom="true"
+            android:onClick="logPagina"
+            android:id="@+id/btnLogar"/>
 
     </RelativeLayout>
 </FrameLayout>
